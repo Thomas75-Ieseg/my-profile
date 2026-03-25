@@ -5,82 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thomas Cross</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <nav>
-    <div class="logo">TC</div>
-    <div class="nav-links">
-      <a href="#about">À propos</a>
-      <a href="#expertise">Expertise</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
+  <div class="container">
 
-  <div class="hero">
-    <p class="hero-tag">Finance · Business · Stratégie</p>
-    <h1>Thomas<br><span class="accent">Cross</span></h1>
-    <p class="hero-sub">Passionné par les marchés financiers, la stratégie d'entreprise et l'investissement. Je construis une vision long terme dans un monde qui évolue vite.</p>
-    <div class="hero-buttons">
-      <a href="mailto:crossthomas569@gmail.com" class="btn-white">Me contacter</a>
-      <a href="#about" class="btn-outline">En savoir plus ↓</a>
+    <!-- INTRO -->
+    <div class="card card-dark">
+      <p class="badge">Finance · Business · Stratégie</p>
+      <h1>Thomas<br><span class="accent">Cross</span></h1>
+      <p class="tagline">Passionné par les marchés financiers et la stratégie d'entreprise.</p>
+      <a href="mailto:crossthomas569@gmail.com" class="btn">Me contacter</a>
     </div>
-    <div class="stats">
-      <div class="stat">
-        <span class="stat-num">Finance</span>
-        <span class="stat-label">Marchés & Analyse</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">Business</span>
-        <span class="stat-label">Stratégie & Valeur</span>
-      </div>
-      <div class="stat">
-        <span class="stat-num">Vision</span>
-        <span class="stat-label">Long terme</span>
-      </div>
+
+    <!-- À PROPOS -->
+    <div class="card">
+      <span class="label">À propos</span>
+      <h2>Qui suis-je ?</h2>
+      <p>Étudiant en finance et business, je me passionne pour l'analyse des marchés, la gestion de portefeuille et la création de valeur en entreprise.</p>
+      <p>Mon objectif : comprendre les mécanismes économiques pour prendre de meilleures décisions.</p>
     </div>
-  </div>
 
-  <div class="section" id="about">
-    <p class="label">À propos</p>
-    <h2>Qui suis-je ?</h2>
-    <p>Étudiant en finance et business, je me passionne pour l'analyse des marchés, la gestion de portefeuille et la création de valeur en entreprise.</p>
-    <p>Mon objectif : comprendre les mécanismes économiques pour prendre de meilleures décisions.</p>
-  </div>
-
-  <div class="section section-grey" id="expertise">
-    <p class="label">Expertise</p>
-    <h2>Mes domaines</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="card-number">01</div>
-        <h3>Marchés Financiers</h3>
-        <p>Analyse technique et fondamentale, gestion de portefeuille, compréhension des instruments financiers.</p>
-      </div>
-      <div class="card">
-        <div class="card-number">02</div>
-        <h3>Stratégie Business</h3>
-        <p>Développement commercial, analyse concurrentielle, business model et création de valeur.</p>
-      </div>
-      <div class="card">
-        <div class="card-number">03</div>
-        <h3>Entrepreneuriat</h3>
-        <p>Lancement de projets, gestion du risque, financement et croissance d'entreprise.</p>
+    <!-- EXPERTISE -->
+    <div class="card card-dark">
+      <span class="label label-gold">Expertise</span>
+      <h2 class="white">Mes domaines</h2>
+      <div class="expertise-list">
+        <div class="expertise-item">
+          <span class="num">01</span>
+          <div>
+            <strong>Marchés Financiers</strong>
+            <p>Analyse technique et fondamentale, gestion de portefeuille, instruments financiers.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <span class="num">02</span>
+          <div>
+            <strong>Stratégie Business</strong>
+            <p>Développement commercial, analyse concurrentielle, business model et création de valeur.</p>
+          </div>
+        </div>
+        <div class="expertise-item">
+          <span class="num">03</span>
+          <div>
+            <strong>Entrepreneuriat</strong>
+            <p>Lancement de projets, gestion du risque, financement et croissance d'entreprise.</p>
+          </div>
+        </div>
       </div>
     </div>
+
+    <!-- CONTACT -->
+    <div class="card card-contact">
+      <span class="label">Contact</span>
+      <h2>Travaillons ensemble.</h2>
+      <p>Ouvert aux opportunités de stage, alternance et projets ambitieux.</p>
+      <a href="mailto:crossthomas569@gmail.com" class="btn btn-dark">crossthomas569@gmail.com →</a>
+    </div>
+
   </div>
 
-  <div class="section section-dark" id="contact">
-    <p class="label label-grey">Contact</p>
-    <h2 class="white">Travaillons ensemble.</h2>
-    <p class="white">Ouvert aux opportunités de stage, alternance et projets ambitieux. N'hésitez pas à me contacter.</p>
-    <a href="mailto:crossthomas569@gmail.com" class="btn-white">crossthomas569@gmail.com →</a>
-  </div>
-
-  <footer>
-    © 2024 Thomas Cross · Finance & Business
-  </footer>
+  <footer>© 2024 Thomas Cross · Finance & Business</footer>
 
 </body>
 </html>
